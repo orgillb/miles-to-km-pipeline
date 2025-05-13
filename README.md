@@ -73,8 +73,9 @@ miles-to-km-pipeline/
 
 - Created a full Python deployment pipeline using GitHub and Jenkins
 - Achieved 95% unit test coverage with `coverage.py`
-- Automated `.exe` packaging with PyInstaller and Inno Setup
+- Automated `.exe` packaging with PyInstaller in Jenkins
 - Archived test reports and builds through Jenkins artifacts
+- Installer generated with Inno Setup (manually compiled)
 
 ---
 
