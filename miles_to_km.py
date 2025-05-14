@@ -20,7 +20,7 @@ input_box = tk.Entry(window)
 input_box.pack(pady=5)
 
 # Create a button that will call the convert function
-convert_button = tk.Button(window, text="Convert", command=convert_miles_to_km)
+convert_button = tk.Button(window, text="Convert", command=convert_and_display)
 convert_button.pack(pady=5)
 
 # Create a label to show the result
