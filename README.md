@@ -35,10 +35,13 @@ This project simulates a real-world deployment scenario for a simple desktop uti
 3. Create a full installer using Inno Setup
 4. Archive `.exe` and test report as Jenkins artifacts
 
+> This pipeline is defined both manually (in Jenkins GUI) and in-code using a [`Jenkinsfile`](./Jenkinsfile) for portability and reproducibility.
+
 ## 📁 Project Structure
 
 ```
 miles-to-km-pipeline/
+├── Jenkinsfile             # CI/CD pipeline (Pipeline as Code)
 ├── miles_to_km.py          # GUI entry point
 ├── converter.py            # Business logic
 ├── test_converter.py       # Unit tests
